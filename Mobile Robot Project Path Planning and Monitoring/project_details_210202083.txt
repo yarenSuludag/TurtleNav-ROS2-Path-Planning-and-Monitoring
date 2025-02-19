@@ -1,0 +1,14 @@
+Abone Olunan Konular:
+- /odom: Robotun odometrik verilerini almak için kullanıldı.
+- /amcl_pose: Robotun konum bilgilerini almak için kullanıldı.
+
+Yayınlanan Konular:
+- Action client tarafından NavigateToPose çağrıldı.
+
+Aksiyonlar:
+- NavigateToPose: Robotun waypoint'lere gitmesi sağlandı.
+
+Kazanımlar:
+- ROS 2, Gazebo simülasyonu ve TurtleBot3 ile çalışıldı.
+- JSON formatında veri okuma ve yazma öğrenildi.
+- Robot navigasyonu ve veri analizi uygulandı.

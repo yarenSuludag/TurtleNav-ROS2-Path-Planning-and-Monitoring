@@ -1,0 +1,15 @@
+{
+    "distances": [
+        {
+            "from_waypoint": 1,
+            "to_waypoint": 2,
+            "distance": 2.5
+        },
+        {
+            "from_waypoint": 2,
+            "to_waypoint": 10,
+            "distance": 3.0
+        }
+    ],
+    "total_distance": 5.5
+}

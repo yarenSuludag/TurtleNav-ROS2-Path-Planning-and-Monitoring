@@ -1,0 +1,88 @@
+{
+    "waypoints": [
+        {
+            "id": 1,
+            "x": 1.0,
+            "y": 2.0,
+            "w": 0
+        },
+        {
+            "id": 2,
+            "x": 3.5,
+            "y": 4.0,
+            "w": 1.57
+        },
+        {
+            "id": 10,
+            "x": 5.0,
+            "y": 1.5,
+            "w": 2
+        }
+    ],
+    "path_lengths": [
+        {
+            "waypoint_id": 1,
+            "planned_length": 2.5
+        },
+        {
+            "waypoint_id": 2,
+            "planned_length": 3.0
+        },
+        {
+            "waypoint_id": 10,
+            "planned_length": 1.8
+        }
+    ],
+    "task_results": [
+        {
+            "waypoint_id": 1,
+            "result": "success",
+            "current_position": {
+                "x": 1.0,
+                "y": 2.0,
+                "theta": 0.0
+            }
+        },
+        {
+            "waypoint_id": 2,
+            "result": "success",
+            "current_position": {
+                "x": 3.5,
+                "y": 4.0,
+                "theta": 1.57
+            }
+        }
+    ],
+    "distance_odom": {
+        "distances": [
+            {
+                "from_waypoint": 1,
+                "to_waypoint": 2,
+                "distance": 2.5
+            },
+            {
+                "from_waypoint": 2,
+                "to_waypoint": 10,
+                "distance": 3.0
+            }
+        ],
+        "total_distance": 5.5
+    },
+    "distance_amcl": {
+        "distances": [
+            {
+                "from_waypoint": 1,
+                "to_waypoint": 2,
+                "distance": 2.7
+            },
+            {
+                "from_waypoint": 2,
+                "to_waypoint": 10,
+                "distance": 3.2
+            }
+        ],
+        "total_distance": 5.9
+    },
+    "total_distance_odom": 5.5,
+    "total_distance_amcl": 5.9
+}

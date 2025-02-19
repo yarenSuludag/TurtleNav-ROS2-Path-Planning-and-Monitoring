@@ -1,0 +1,16 @@
+{
+    "waypoint_paths": [
+        {
+            "waypoint_id": 1,
+            "planned_length": 2.5
+        },
+        {
+            "waypoint_id": 2,
+            "planned_length": 3.0
+        },
+        {
+            "waypoint_id": 10,
+            "planned_length": 1.8
+        }
+    ]
+}
